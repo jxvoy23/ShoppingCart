@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShoppingCartController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shoppingcart.shoppingcarthashmap.ShoppingCartController">
     <padding>
         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
     </padding>
@@ -59,12 +59,8 @@
     <center>
         <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
             <children>
-                <Button fx:id="addButton" mnemonicParsing="false" text="--&gt; Add to Cart --&gt;" >
-                    <onAction>#onAddButton</onAction>
-                </Button>
-                <Button fx:id="removeButton" mnemonicParsing="false" text="&lt;-- Remove from Cart &lt;--" >
-                    <onAction>#onRemoveButton</onAction>
-                </Button>
+                <Button fx:id="addButton" mnemonicParsing="false" text="--&gt; Add to Cart --&gt;" onAction="#onAddButton" />
+                <Button fx:id="removeButton" mnemonicParsing="false" text="&lt;-- Remove from Cart &lt;--" onAction="#onRemoveButton" />
             </children>
             <padding>
                 <Insets left="10.0" right="10.0" />
@@ -79,8 +75,7 @@
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
-                <Button fx:id="checkoutButton" mnemonicParsing="false" text="Checkout">
-                    <onAction>#onCheckoutButton</onAction>
+                <Button fx:id="checkoutButton" mnemonicParsing="false" text="Checkout" onAction="#onCheckoutButton">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>

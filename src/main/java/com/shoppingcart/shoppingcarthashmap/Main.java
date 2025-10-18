@@ -25,7 +25,7 @@ public class Main extends Application {
 
         // Set up the scene and stage
         primaryStage.setTitle("Shopping Cart System (FXML)");
-        primaryStage.setScene(new Scene(root, 700, 700));
+        primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }
 
