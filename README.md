@@ -29,8 +29,6 @@ Implements put, get, remove, containsKey, keys, values, and entrySet.
 
 Uses separate chaining (via java.util.LinkedList) to handle hash collisions.
 
-Fulfills the assignment constraint of not using java.util.HashMap or HashTable.
-
 Data Structure Design (ShoppingCartSystem.java):
 
 The main data structure is MyHashMap<Customer, ArrayList<Item>>.
