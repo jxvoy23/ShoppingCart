@@ -1,9 +1,8 @@
 package com.shoppingcart.shoppingcarthashmap;// File: MyHashMap.java
-// Name: [Your Name]
-// RAM ID: [Your RAM ID]
+// Name: Joel Rodriguez
+// RAM ID: R02192039
 // I certify that this submission is my own individual work, with
 // the assistance of Google Gemini (AI tool).
-
 import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.Iterator;
